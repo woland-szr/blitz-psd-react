@@ -18,7 +18,8 @@
   padding: 0;
   display: flex;
   justify-content: space-between;
-  width: 600px;
+  flex-wrap: wrap;
+  max-width: 600px;
 }
 
 .first-menu {
@@ -30,3 +31,5 @@
   border-bottom: 1px $greyColor solid;
   color: $greyColor;
 }
+
+@import "./tablet";

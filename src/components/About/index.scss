@@ -12,8 +12,8 @@
 .about-me {
   text-align: left;
   color: #202020;
-  margin: 20px 0px 44px 50px;
-  max-width: 771px;
+  padding: 20px 50px 44px 50px;
+  max-width: 668px;
 }
 
 .about-me__title {
@@ -38,3 +38,5 @@
   color: $greyColor;
   margin-bottom: 50px;
 }
+
+@import "./tablet";
