@@ -1,0 +1,32 @@
+@import "../../vars.scss";
+
+.menu-container {
+  position: relative;
+  z-index: 1;
+}
+
+.menu-box {
+  margin: 0 70px;
+}
+
+.menu-ul {
+  list-style: none;
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 35px auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.first-menu {
+  border-bottom: 1px $lightColor solid;
+  color: $lightColor;
+}
+
+.second-menu {
+  border-bottom: 1px $greyColor solid;
+  color: $greyColor;
+}

@@ -1,0 +1,40 @@
+@import "../../vars.scss";
+
+.about-block {
+  margin: 75px auto 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me {
+  text-align: left;
+  color: #202020;
+  margin: 20px 0px 44px 50px;
+  max-width: 771px;
+}
+
+.about-me__title {
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 0.35rem;
+  font-weight: 400;
+}
+
+.about-me__text {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 2.1;
+}
+
+.about-me__name {
+  font-size: 36px;
+  line-height: 2.5;
+}
+
+.about .scroll {
+  color: $greyColor;
+  margin-bottom: 50px;
+}
