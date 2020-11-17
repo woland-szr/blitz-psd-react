@@ -1,13 +1,26 @@
 import React from 'react';
 import './index.scss';
 
-const Menu = ({order}) => {
-    const currentClass = `menu-box ${order}`
-    let aboutTag = order === 'first-menu'? 'home' : 'about'
+const Menu = ({section}) => {
+
+    let [menuStatus, setMenu] = React.useState(false);  
+
+    const toggleMenu = () => {
+        if (menuStatus) {
+            document.querySelector('ul').style.display = 'none'
+            setMenu(false)
+        }
+        else {
+            document.querySelector('ul').style.display = 'block'
+            setMenu(true)
+      }
+
+    }
+
     return (
-        <div id={aboutTag} className='menu-container'>
-            <div className={currentClass}>
-                <nav>
+        <div id={section}>
+                <nav className='menu-box'>
+                    <div className='menu-mobile' onClick={toggleMenu}>&#8734; menu</div>
                     <ul className='menu-ul'>
                         <li><a href='/'>Home</a></li>
                         <li><a href='#about'>About me</a></li>
@@ -15,7 +28,6 @@ const Menu = ({order}) => {
                         <li><a href='#contact'>Contact</a></li>
                     </ul>
                 </nav>
-            </div>
         </div>
     )
 }

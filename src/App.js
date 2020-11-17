@@ -4,10 +4,10 @@ import Menu from './components/Menu';
 
 const App =() => {
   return (
-    <div className="App">
-      <Menu order='first-menu'/>
+    <div className="app">
       <Home />
-      <Menu order='second-menu'/>
+      <Menu section='home'/>
+      <Menu section='about'/>
       <About />
     </div>
   );

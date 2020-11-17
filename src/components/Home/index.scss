@@ -4,14 +4,13 @@
   background-image: url("../../assets/home.jpg");
   background-size: cover;
   background-position: 50% 50%;
-  position: relative;
-  margin-top: -101px;
-}
 
-.home .scroll {
-  padding-top: 955px;
-  padding-bottom: 53px;
-  color: $lightColor;
+  .scroll {
+    padding-top: 955px;
+    padding-bottom: 53px;
+    color: $lightColor;
+  }
 }
 
 @import "./tablet";
+@import "./mobile";

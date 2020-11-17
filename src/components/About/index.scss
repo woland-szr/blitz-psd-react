@@ -9,6 +9,13 @@
   align-items: center;
 }
 
+.photo {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .about-me {
   text-align: left;
   color: #202020;
@@ -32,6 +39,7 @@
 .about-me__name {
   font-size: 36px;
   line-height: 2.5;
+  font-weight: 400;
 }
 
 .about .scroll {
@@ -40,3 +48,4 @@
 }
 
 @import "./tablet";
+@import "./mobile";

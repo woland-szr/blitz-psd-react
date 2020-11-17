@@ -1,0 +1,23 @@
+@media only screen and (max-width: 480px) {
+  #home .menu-box {
+    border-bottom: 0;
+    text-align: left;
+  }
+
+  .menu-mobile {
+    display: block;
+    font-family: "PT Sans", sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .menu-ul {
+    display: none;
+    flex-direction: column;
+  }
+
+  #about .menu-box {
+    display: none;
+  }
+}

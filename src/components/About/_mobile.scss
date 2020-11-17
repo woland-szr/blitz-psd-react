@@ -1,0 +1,29 @@
+@media only screen and (max-width: 480px) {
+  .about-block {
+    margin: 0 auto;
+  }
+
+  .about-me {
+    padding: 10px 10px 0px 37px;
+  }
+
+  .about-me__title {
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .about-me__text {
+    font-size: 18px;
+    line-height: 2.8;
+  }
+
+  .about-me__name {
+    font-size: 18px;
+    line-height: 2.5;
+  }
+
+  .about .scroll,
+  .about-me__text p:nth-child(n + 2) {
+    display: none;
+  }
+}
